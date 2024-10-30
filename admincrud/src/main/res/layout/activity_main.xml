@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/vehinfo"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="550dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/mainUpload"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Upload"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/green"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text="Update"
+                android:id="@+id/mainupdate"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/green"
+                app:strokeColor="@color/green"
+                app:strokeWidth="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text="Delete"
+                android:id="@+id/maindelete"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/green"
+                app:strokeColor="@color/green"
+                app:strokeWidth="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
